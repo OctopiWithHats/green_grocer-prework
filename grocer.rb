@@ -5,7 +5,8 @@ def consolidate_cart(cart)
   cart.each_with_index do |item, i|
     item.each do |food, info|
       if result_cart[food]
-        result_cart[food]
+        result_cart[food][:count] += 1
+        
 end
 
 def apply_coupons(cart, coupons)
