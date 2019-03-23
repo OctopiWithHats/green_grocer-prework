@@ -43,7 +43,7 @@ end
 
 def apply_clearance(cart)
   # code here
-  result_cart = {}
+  clearance_cart = {}
   
 end
 
