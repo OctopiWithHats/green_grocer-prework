@@ -4,7 +4,7 @@ def consolidate_cart(cart)
   
   cart.each_with_index do |item, i|
     item.each do |food, info|
-      if result[food]
+      if result_cart[food]
         
 end
 
