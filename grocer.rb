@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
   coupon_cart = {}
   
   cart.each do |food, info|
-    
+    coupons.each do |
 end
 
 def apply_clearance(cart)
