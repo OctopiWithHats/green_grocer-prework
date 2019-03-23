@@ -41,9 +41,10 @@ def apply_coupons(cart, coupons)
   result_cart
 end
 
-def apply_clearance(cart)
+def apply_clearance(cart:[])
   # code here
   clearance_cart = {}
+  
   
 end
 
