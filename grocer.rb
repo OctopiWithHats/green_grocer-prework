@@ -30,7 +30,7 @@ def apply_coupons(cart, coupons)
         else
           result_cart["#{food} W/COUPON"] = {
             :price => coupon[:cost],
-            
+            :clearance =>
           }
 end
 
