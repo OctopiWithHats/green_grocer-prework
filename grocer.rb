@@ -31,6 +31,7 @@ def apply_coupons(cart, coupons)
           result_cart["#{food} W/COUPON"] = {
             :price => coupon[:cost],
             :clearance => info[:clearance],
+            :count => 1}
             
           }
 end
