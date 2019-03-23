@@ -45,7 +45,8 @@ def apply_clearance(cart)
   # code here
   clearance_cart = {}
   
-  cart.each do |
+  cart.each do |food, info|
+    
   
 end
 
