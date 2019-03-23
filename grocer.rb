@@ -31,15 +31,14 @@ def apply_coupons(cart, coupons)
           result_cart["#{food} W/COUPON"] = {
             :price => coupon[:cost],
             :clearance => info[:clearance],
-            :count => 1}
+            :count => 1
+          }
         end
       end
     end
     result_cart[food] = info
   end
   result_cart
-end
-          }
 end
 
 def apply_clearance(cart)
