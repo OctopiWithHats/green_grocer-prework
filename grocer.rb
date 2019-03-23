@@ -37,6 +37,8 @@ def apply_coupons(cart, coupons)
     end
     result_cart[food] = info
   end
+  result_cart
+end
           }
 end
 
