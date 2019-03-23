@@ -68,5 +68,5 @@ def checkout(cart, coupons)
   result = 0
   
   cart.each do |food, info|
-    
+    result += 
 end
