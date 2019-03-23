@@ -55,7 +55,11 @@ def apply_clearance(cart)
     
     clearance_cart[food][:clearance] = info[:clearance]
     clearance_cart[food][:count] = info[:count]
-    
+  end
+  
+  clearance_cart
+  
+end
   
 end
 
