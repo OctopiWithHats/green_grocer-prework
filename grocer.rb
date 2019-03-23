@@ -22,7 +22,8 @@ def apply_coupons(cart, coupons)
   
   cart.each do |food, info|
     coupons.each do |coupon|
-      if food == coupon[:item] && info[:count] >= coupon[:count]
+      if food == coupon[:item] && info[:count] >= coupon[:num]
+        
 end
 
 def apply_clearance(cart)
