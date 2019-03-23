@@ -29,7 +29,8 @@ def apply_coupons(cart, coupons)
           result_cart["#{food} W/COUPON"][:count] += 1
         else
           result_cart["#{food} W/COUPON"] = {
-            :price =>
+            :price => coupon[:cost],
+            
           }
 end
 
