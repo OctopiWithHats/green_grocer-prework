@@ -22,7 +22,7 @@ def apply_coupons(cart, coupons)
   
   cart.each do |food, info|
     coupons.each do |coupon|
-      if food == 
+      if food == coupon[:item] && 
 end
 
 def apply_clearance(cart)
