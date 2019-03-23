@@ -48,7 +48,7 @@ def apply_clearance(cart)
   cart.each do |food, info|
     clearance_cart[food] = {}
     if info[:clearance] == true
-      clearance_cart[info]
+      clearance_cart[food][:price] = info[]
   
 end
 
