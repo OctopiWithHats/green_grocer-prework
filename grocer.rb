@@ -2,7 +2,7 @@ def consolidate_cart(cart)
   # code here
   result_cart = {}
   
-  cart.each_with_index do |item, i|
+  cart.each_with_index do |item, count|
     
 end
 
