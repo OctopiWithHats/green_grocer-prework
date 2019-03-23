@@ -35,7 +35,8 @@ def apply_coupons(cart, coupons)
         end
       end
     end
-    result_cart[food][:info]
+    result_cart[food] = info
+  end
           }
 end
 
