@@ -28,7 +28,7 @@ def apply_coupons(cart, coupons)
         if result_cart["#{food} W/COUPON"]
           result_cart["#{food} W/COUPON"][:count] += 1
         else
-          result_cart["#{food} W/COUPON"]
+          result_cart["#{food} W/COUPON"] = {
 end
 
 def apply_clearance(cart)
