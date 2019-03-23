@@ -26,7 +26,7 @@ def apply_coupons(cart, coupons)
         info[:count] = info[:count] - coupon[:num]
         
         if coupon_cart["#{food} W/COUPON"]
-          
+          coupon_cart["#{food} W/COUPON"][]
 end
 
 def apply_clearance(cart)
