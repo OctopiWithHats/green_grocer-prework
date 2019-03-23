@@ -20,7 +20,7 @@ def apply_coupons(cart, coupons)
   # code here
   coupon_cart = {}
   
-  cart.each_with_index do |
+  cart.each do |
 end
 
 def apply_clearance(cart)
